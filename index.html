@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sagun Bhagat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h3>Sagun Bhagat</h3>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <img src="./icons/hamburger.svg" alt="" />
+      </div>
+    </nav>
+    <div class="sidebar">
+      <div class="sidebar-menu">
+        <img src="./icons/close.svg" alt="" width="30" class="close-btn" />
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <section id="hero">
+      <div class="left">
+        <div class="hero-text">
+          <h2>I'm Sagun Bhagat!</h2>
+          <span>Undergraduate Computer Engineer</span>
+        </div>
+        <p class="hero-desc">
+          I am currently studying in IOE PURWANCHAL CAMPUS. It is located in
+          Dharan-8, Sunsari. I'm tech enthaustatic and a very good learner.
+        </p>
+        <button class="btn-primary">Download CV</button>
+      </div>
+      <img src="picofme.png" class="hero-image" alt="" width="500" />
+    </section>
+    <section id="projects">
+      <div class="title">
+        <h2>My Projects</h2>
+        <p class="sub-title">These are my past college projects</p>
+      </div>
+      <div class="project-list">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Gametemplate.jpg" alt="" width="300" />
+          </div>
+          <div class="card-details">
+            <h4 class="card-title">C-Games</h4>
+            <p class="card-description">
+              This project includes tic-tac-toe, rock paper scissor, coin-flip
+              and truth-or-dare
+            </p>
+            <a href="#">Live Demo</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="hotel.png" alt="" width="300" />
+          </div>
+          <div class="card-details">
+            <h4 class="card-title">Hotel and Tourism Website</h4>
+            <p class="card-description">
+              This project is a model website of Sagun's Hotel and Tourism
+            </p>
+            <a href="#">Live Demo</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="picofme.png" alt="" width="300" />
+          </div>
+          <div class="card-details">
+            <h4 class="card-title">Personal Protfilio</h4>
+            <p class="card-description">
+              This is a project of my Personal Protfilio website
+            </p>
+            <a href="#">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="details">
+        <h3>About Myself!</h3>
+        <p>
+          Hello! I’m a Computer Engineering student at IOE Purwanchal Campus,
+          Dharan. I’ve always been passionate about technology and enjoy
+          exploring how things work behind the scenes. With a solid academic
+          foundation — a GPA of 3.3 in SEE, 3.7 in Grade 11, and 3.62 in SLC —
+          and an IOE entrance rank of 697, I’m committed to continuous learning
+          and growth in the tech world. Whether it’s diving into programming,
+          understanding hardware systems, or keeping up with the latest trends
+          in technology, I’m always eager to learn and build. I’m currently
+          expanding my skills in software development, systems design, and
+          problem-solving — all while staying curious and driven. Let’s connect
+          and create something impactful together!
+        </p>
+        <div class="social-links">
+          <a href="#">
+            <img src="./icons/twitter.svg" alt="" />
+          </a>
+          <a href="https://www.instagram.com/bhagatsagun/" target="_blank">
+            <img src="./icons/insta.svg" alt="" />
+          </a>
+          <a href="https://www.facebook.com/sagun.bhagat.12" target="_blank">
+            <img src="./icons/fb.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <img src="image.jpg" alt="" class="about-img" width="300" />
+    </section>
+    <section id="contact">
+      <div class="title">
+        <h2>Contact Me</h2>
+        <p class="sub-title">
+          Feel free to contact me at sagunbhagat7@gmail.com
+        </p>
+      </div>
+      <form action="">
+        <div class="inputs">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+
+        <div class="inputs">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div class="inputs">
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter your message"
+            rows="6"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </section>
+    <section id="footer">
+      <div class="credit">@Sagun Kumar Bhagat</div>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
+</html>
